@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	
+<script src="https://kit.fontawesome.com/148fbe0250.js" crossorigin="anonymous"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+	<title>University Website</title>
+</head>
+<body>
+	<section class="sub-header">		
+	
+	<nav>
+		<a href="index.html"><img src="img/logo.png"></a>
+		<div class="nav-links" id="navLinks">
+			<i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="course.html">Course</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+			
+		</div>
+		<i class="fa-solid fa-bars" onclick="showMenu()"></i>
+	</nav>
+		<h1>Our Certificate & Online Programs For 2021</h1>
+	</section>
+
+	<!-- ------------blog page content -->
+
+	<section class="blog-content">
+		<div class="row">
+		<div class="blog-left">
+			<img src="img/certificate.jpg">
+			<h2>Our Certificate & Online Programs For 2021</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. 
+		</p> <br>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. </p>
+			<br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<br>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class="comment-box">
+				<h3>Leave a comment</h3>
+				<form class="comment-form">
+					<input type="text" name="text" placeholder="Enter Name">
+					<input type="email" name="email" placeholder="Enter Email">
+					<textarea rows="5" placeholder="Your Comment">
+					</textarea>
+					<button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+				</form>
+
+			</div>
+		</div>
+		<div class="blog-right">
+			<h3>Post Categories</h3>
+			<div>
+				<span>Business Analytics</span>
+				<span>21</span>
+			</div>
+			<div>
+				<span>Data Science</span>
+				<span>27</span>
+			</div>
+			<div>
+				<span>Machine Learning</span>
+				<span>25</span>
+			</div>
+			<div>
+				<span>Computer Science</span>
+				<span>31</span>
+			</div>
+			<div>
+				<span>AutoCAD</span>
+				<span>43</span>
+			</div>
+			<div>
+				<span>Java Script</span>
+				<span>55</span>
+			</div>
+			<div>
+				<span>React.js</span>
+				<span>33</span>
+			</div>
+		</div>
+		</div>
+	</section>
+	
+		
+
+	<!-- ---------------Footer-------------->
+	<section class="footer">
+		<h4>About Us</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. </p>
+		<div class="icons">
+			<i class="fa-brands fa-facebook"></i>
+			<i class="fa-brands fa-instagram"></i>
+			<i class="fa-brands fa-twitter"></i>
+			<i class="fa-brands fa-linkedin"></i>
+		</div>
+		<p>This Website made with Love
+		 <i class="fa-solid fa-heart"></i></p>
+
+	</section>
+
+
+	<!-- JavaScript for toggle menu -->
+	<script>
+		var navLinks=document.getElementById('navLinks');
+		function showMenu(){
+			navLinks.style.right="0";
+		}
+		function hideMenu(){
+			navLinks.style.right="-200px"
+		}
+	</script>
+</body>
+</html>
